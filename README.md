@@ -1,1 +1,5 @@
-Simple Sbt project with Scala.
+Demonstrates implicit unused errors
+
+In scala 2.12.3 the test passes fine.
+
+In scala 2.12.4 the test doesn't compile because it says the object implicit is unused
